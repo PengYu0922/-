@@ -1,0 +1,35 @@
+{
+  "name": "my-vue3-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-cli-service build",
+    "preview": "vite preview",
+    "serve": "vue-cli-service serve",
+    "mock": "node ./src/mock/server.js --port 8080"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "element-plus": "^2.7.5",
+    "express": "^4.19.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "express-mockjs": "^0.4.9",
+    "mockjs": "^1.1.0",
+    "nodemon": "^3.1.4",
+    "sass": "^1.77.6",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.3.1",
+    "vite-plugin-mock": "^3.0.2",
+    "vite-plugin-vue-devtools": "^7.3.1"
+  }
+}
